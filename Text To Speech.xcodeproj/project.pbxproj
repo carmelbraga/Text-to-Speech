@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		BD04FCF423D9095500FE8DD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD04FCF323D9095500FE8DD3 /* AppDelegate.swift */; };
 		BD04FCF623D9095500FE8DD3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD04FCF523D9095500FE8DD3 /* SceneDelegate.swift */; };
-		BD04FCF823D9095500FE8DD3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD04FCF723D9095500FE8DD3 /* ViewController.swift */; };
 		BD04FCFB23D9095500FE8DD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD04FCF923D9095500FE8DD3 /* Main.storyboard */; };
 		BD04FCFD23D9095800FE8DD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD04FCFC23D9095800FE8DD3 /* Assets.xcassets */; };
 		BD04FD0023D9095800FE8DD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD04FCFE23D9095800FE8DD3 /* LaunchScreen.storyboard */; };
 		BD04FD0B23D9095800FE8DD3 /* Text_To_SpeechTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD04FD0A23D9095800FE8DD3 /* Text_To_SpeechTests.swift */; };
 		BD04FD1623D9095800FE8DD3 /* Text_To_SpeechUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD04FD1523D9095800FE8DD3 /* Text_To_SpeechUITests.swift */; };
+		BD04FD2423D9098800FE8DD3 /* TextToSpeechViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD04FD2323D9098800FE8DD3 /* TextToSpeechViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,6 @@
 		BD04FCF023D9095500FE8DD3 /* Text To Speech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Text To Speech.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD04FCF323D9095500FE8DD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD04FCF523D9095500FE8DD3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BD04FCF723D9095500FE8DD3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BD04FCFA23D9095500FE8DD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BD04FCFC23D9095800FE8DD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD04FCFF23D9095800FE8DD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		BD04FD1123D9095800FE8DD3 /* Text To SpeechUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Text To SpeechUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD04FD1523D9095800FE8DD3 /* Text_To_SpeechUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_To_SpeechUITests.swift; sourceTree = "<group>"; };
 		BD04FD1723D9095800FE8DD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD04FD2323D9098800FE8DD3 /* TextToSpeechViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextToSpeechViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +101,11 @@
 			children = (
 				BD04FCF323D9095500FE8DD3 /* AppDelegate.swift */,
 				BD04FCF523D9095500FE8DD3 /* SceneDelegate.swift */,
-				BD04FCF723D9095500FE8DD3 /* ViewController.swift */,
 				BD04FCF923D9095500FE8DD3 /* Main.storyboard */,
 				BD04FCFC23D9095800FE8DD3 /* Assets.xcassets */,
 				BD04FCFE23D9095800FE8DD3 /* LaunchScreen.storyboard */,
 				BD04FD0123D9095800FE8DD3 /* Info.plist */,
+				BD04FD2323D9098800FE8DD3 /* TextToSpeechViewController.swift */,
 			);
 			path = "Text To Speech";
 			sourceTree = "<group>";
@@ -259,7 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD04FCF823D9095500FE8DD3 /* ViewController.swift in Sources */,
+				BD04FD2423D9098800FE8DD3 /* TextToSpeechViewController.swift in Sources */,
 				BD04FCF423D9095500FE8DD3 /* AppDelegate.swift in Sources */,
 				BD04FCF623D9095500FE8DD3 /* SceneDelegate.swift in Sources */,
 			);
